@@ -4,6 +4,9 @@
 
 (depends-on "init-loader")
 
+;; general
+(depends-on "anything")
+
 ;; ruby
 (depends-on "ruby-mode")
 (depends-on "ruby-end")
