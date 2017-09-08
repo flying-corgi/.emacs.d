@@ -1,6 +1,7 @@
 (source gnu)
 (source marmalade)
 (source melpa)
+(source org)
 
 (depends-on "init-loader")
 
@@ -15,3 +16,6 @@
 
 ;; complement
 (depends-on "company")
+
+;; org
+(depends-on "org-plus-contrib")
